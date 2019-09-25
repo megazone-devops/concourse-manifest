@@ -1,0 +1,9 @@
+---
+applications:
+  - name: test_0.02
+#    buildpack: java_buildpack_offline
+#    health-check-type: process
+#    env:
+#      spring.profiles.active: "dev"
+#services:
+#  - McWrapper_DB

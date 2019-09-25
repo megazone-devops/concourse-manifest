@@ -1,0 +1,9 @@
+---
+applications:
+  - buildpack: java_buildpack_offline
+    health-check-type: process
+    env:
+      spring.profiles.active: "prd"
+#services:
+#  - McWrapperDB
+#  - rabbit_prd

@@ -1,0 +1,6 @@
+---
+applications:
+  - memory: 1024m
+    docker:
+      image: registry.mzdev.kr/IMAGE_PROJECT/IMAGE_NAME:IMAGE_TAG
+    command:

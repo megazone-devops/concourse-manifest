@@ -1,0 +1,9 @@
+---
+applications:
+  - name: gorevel
+    memory: 1024m
+    docker:
+      image: ((image))
+    command: revel run myapp
+    env:
+      APP_PORT: "$PORT"
